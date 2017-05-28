@@ -5,6 +5,7 @@
  */
 package bitcoinapp;
 
+import bitcoinapp.controler.BitControler;
 import java.awt.Container;
 import java.awt.Point;
 import java.awt.event.MouseEvent;
@@ -20,6 +21,7 @@ import javax.swing.JFrame;
  * @author carlo
  */
 public class BitCoinApp {
+
 
     /**
      * @param args the command line arguments
@@ -39,7 +41,11 @@ public class BitCoinApp {
         }
         principal.setVisible(true);
         
+        
     }
+
+  
+    
     
     
 }
